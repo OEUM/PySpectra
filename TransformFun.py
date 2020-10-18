@@ -44,8 +44,6 @@ def ReadFromDir(Directory,ext='.spc',orient='Row'):
 
     return SpectraDataFrame, SpectraDict
 
-
-
 class GeneralTransformer():
 
     def __init__(self):
