@@ -1,0 +1,20 @@
+The demo calibrations for the spectrometers from
+
+  Si-Ware Systems
+  Spectral Engines
+  VIAVI
+  Texas Instruments
+
+are build with the raw data thankfully provided 
+from Prof. Heinz W Siesler, from this publication
+
+  Hand-held near-infrared spectrometers: 
+    State-of-the-art instrumentation and practical applications
+  Hui Yan, Heinz W Siesler
+  First Published August 20, 2018 Research Article
+  https://doi.org/10.1177/0960336018796391
+
+
+The demo calibrations for the FOSS are built with the 
+  ANSIG Kaji Competition 2014 shootout data
+  http://www.anisg.com.au/the-kaji-competition
