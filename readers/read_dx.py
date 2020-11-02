@@ -1,11 +1,7 @@
-# DX file is a plain text
-# Use RegEx for read and split data
 import re
 import numpy as np
-import matplotlib.pyplot as plt
-file =r'C:\Users\uv7301\OneDrive - DuPont\Git\Spectra\SampleFiles\Raman\Raman_pectin_juice_spectra_Brab_2020\Raman_pectin_juice_spectra_Brab_2020\DUPONT_T11543-001A_0_0_20170906-144037_en.0.dx'
 
-class DXReader():
+class read_from_dx():
 
     def __init__(self):
 
@@ -64,12 +60,3 @@ class DXReader():
                *float(self.Params['XFACTOR'])
         self.y=np.array(list(map(float,self.y)))*float(self.Params['YFACTOR'])
         print("Done")
-
-
-
-Spec=DXReader()
-Spec.read(file)
-plt.plot(Spec.x,Spec.y)
-plt.grid(True)
-plt.title(Spec.FileName)
-5.7760576e-06
