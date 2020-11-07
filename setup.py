@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pyspectra", # Replace with your own username
-    version="0.0.1",
+    version="0.0.1.1",
     author="Oscar Ureña",
     author_email="oscar.enrique.urena@gmail.com",
     description="A  python package designed to work with spectroscopy data",
