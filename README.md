@@ -51,7 +51,7 @@ print(spc.head())
     
 
 
-![](https://github.com/OEUM/PySpectra/tree/main/images/output_3_1_SingleSpectraSPC.png)
+![Single spc spectra](https://github.com/OEUM/PySpectra/blob/main/images/output_3_1_SingleSpectraSPC.png?raw=true)
 
 
 ## Read multiple .spc files from a directory
@@ -238,7 +238,7 @@ plt.show()
 
 
 
-![](https://github.com/OEUM/PySpectra/tree/main/images/output_5_2_MultiSpectraSPC.png)
+![Multiple spectra spc](https://github.com/OEUM/PySpectra/blob/main/images/output_5_2_MultiSpectraSPC.png?raw=true)
 
 
 # Read .dx spectral files
@@ -275,7 +275,7 @@ df.transpose().plot()
 
 
 
-![](https://github.com/OEUM/PySpectra/tree/main/images/output_8_1_SingleSpectraDX.png)
+![Single DX spectra](https://github.com/OEUM/PySpectra/blob/main/images/output_8_1_SingleSpectraDX.png?raw=true)
 
 
 ### Single file, multiple spectra:
@@ -297,7 +297,7 @@ df.transpose().plot(legend=False)
 
 
 
-![](https://github.com/OEUM/PySpectra/tree/main/images/output_10_1_MultiSpectraDX.png)
+![Multi DX spectra](https://github.com/OEUM/PySpectra/blob/main/images/output_10_1_MultiSpectraDX.png?raw=true)
 
 
 
@@ -360,7 +360,7 @@ plt.show()
 ```
 
 
-![](https://github.com/OEUM/PySpectra/tree/main/images/output_14_0_MSC.png)
+![MSC transformation](https://github.com/OEUM/PySpectra/blob/main/images/output_14_0_MSC.png?raw=true)
 
 
 
@@ -386,7 +386,7 @@ plt.show()
 ```
 
 
-![](https://github.com/OEUM/PySpectra/tree/main/images/output_15_0_SNV_Detrend.png)
+![SNV and Detrend transformations](https://github.com/OEUM/PySpectra/blob/main/images/output_15_0_SNV_Detrend.png?raw=true)
 
 
 # Modelling of spectra
@@ -407,12 +407,12 @@ plt.ylabel(" cumulative % of explained variance")
 
 
 
-    Text(0, 0.5, ' cumulative % of explained variance')
+   
 
 
 
 
-![](https://github.com/OEUM/PySpectra/tree/main/images/output_18_1_PCA_Variance.png)
+![PCAcumulative variance](https://github.com/OEUM/PySpectra/blob/main/images/output_18_1_PCA_Variance.png?raw=true)
 
 
 
@@ -430,7 +430,7 @@ plt.show()
 ```
 
 
-![](https://github.com/OEUM/PySpectra/tree/main/images/output_19_0_PCA_values.png)
+![Transformed PCA values](https://github.com/OEUM/PySpectra/blob/main/images/output_19_0_PCA_values.png?raw=true)
 
 
 ## Using automl libraries to deploy faster models
@@ -503,5 +503,5 @@ plt.show()
 ```
 
 
-![](https://github.com/OEUM/PySpectra/tree/main/images/output_23_0_model_fit.png)
+![TPOT model fit](https://github.com/OEUM/PySpectra/blob/main/images/output_23_0_model_fit.png?raw=true)
 
