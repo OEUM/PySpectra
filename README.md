@@ -51,7 +51,7 @@ print(spc.head())
     
 
 
-![png](output_3_1.png)
+![](https://github.com/OEUM/PySpectra/tree/main/images/output_3_1_SingleSpectraSPC.png)
 
 
 ## Read multiple .spc files from a directory
@@ -238,7 +238,7 @@ plt.show()
 
 
 
-![png](output_5_2.png)
+![](https://github.com/OEUM/PySpectra/tree/main/images/output_5_2_MultiSpectraSPC.png)
 
 
 # Read .dx spectral files
@@ -275,7 +275,7 @@ df.transpose().plot()
 
 
 
-![png](output_8_1.png)
+![](https://github.com/OEUM/PySpectra/tree/main/images/output_8_1_SingleSpectraDX.png)
 
 
 ### Single file, multiple spectra:
@@ -297,7 +297,7 @@ df.transpose().plot(legend=False)
 
 
 
-![png](output_10_1.png)
+![](https://github.com/OEUM/PySpectra/tree/main/images/output_10_1_MultiSpectraDX.png)
 
 
 
@@ -360,7 +360,7 @@ plt.show()
 ```
 
 
-![png](output_14_0.png)
+![](https://github.com/OEUM/PySpectra/tree/main/images/output_14_0_MSC.png)
 
 
 
@@ -386,7 +386,7 @@ plt.show()
 ```
 
 
-![png](output_15_0.png)
+![](https://github.com/OEUM/PySpectra/tree/main/images/output_15_0_SNV_Detrend.png)
 
 
 # Modelling of spectra
@@ -412,7 +412,7 @@ plt.ylabel(" cumulative % of explained variance")
 
 
 
-![png](output_18_1.png)
+![](https://github.com/OEUM/PySpectra/tree/main/images/output_18_1_PCA_Variance.png)
 
 
 
@@ -430,7 +430,7 @@ plt.show()
 ```
 
 
-![png](output_19_0.png)
+![](https://github.com/OEUM/PySpectra/tree/main/images/output_19_0_PCA_values.png)
 
 
 ## Using automl libraries to deploy faster models
@@ -503,5 +503,5 @@ plt.show()
 ```
 
 
-![png](output_23_0.png)
+![](https://github.com/OEUM/PySpectra/tree/main/images/output_23_0_model_fit.png)
 
