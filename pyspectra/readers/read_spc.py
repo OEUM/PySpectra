@@ -23,7 +23,7 @@ def read_spc(filename):
 def read_spc_dir(Directory, ext='.spc', orient='Row'):
 
     #Read all files from directory and create a list, also ensures that the extension of file is correct
-    Flist = [f for f in listdir(Directory) if isfile(join(Directory, f)) and f.endswith(ext)]
+    Flist = [f for f in listdir(Directory) if isfile(join(Directory, f)) and f.endswith(ext.upper()) or f.endswith(ext.lower())]
 
     SpectraDict={}
     #Read all of them an add them to a dictionary
